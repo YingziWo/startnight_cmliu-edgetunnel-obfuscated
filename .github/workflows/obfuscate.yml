@@ -3,7 +3,7 @@ name: 🔐 Obfuscate edgetunnel Worker
 on:
   schedule:
     # 每天北京时间早上6点自动执行 (UTC 22:00)
-    - cron: "0 22 * * *"
+    #- cron: "0 22 * * *"
   workflow_dispatch:
 
 permissions:
