@@ -50,7 +50,7 @@ jobs:
             --transform-object-keys true \
             --unicode-escape-sequence true \
             --split-strings true \
-            --split-strings-chunk-length 5
+            --split-strings-chunk-length 7
           echo "Obfuscated _worker.js ($(wc -c < _worker.js) bytes)"
 
       - name: ✅ Verify output
